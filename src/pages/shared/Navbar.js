@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../image/Frame 1.png'
 import Btn from './Btn';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -10,11 +11,12 @@ const Navbar = () => {
             </div>
             <div className="navbar-end  hidden lg:flex">
                 <ul className="flex text-black">
-                    <li className='p-4'><a href="">About</a></li>
-                    <li className='p-4'><a href="">Stories</a></li>
-                    <li className='p-4'><a href="">Blog</a></li>
-                    <li className='p-4'><a href="">FAQ</a></li>
-                    <li className='p-4'><a href="">Contacts</a></li>
+
+                    <li className='p-4'><Link>About</Link></li>
+                    <li className='p-4'><Link>Stories</Link></li>
+                    <li className='p-4'><Link>Blog</Link></li>
+                    <li className='p-4'><Link>FAQ</Link></li>
+                    <li className='p-4'><Link>Contract</Link></li>
                 </ul>
                 <Btn></Btn>
             </div>
