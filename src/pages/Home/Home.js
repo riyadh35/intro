@@ -8,6 +8,7 @@ import AboutService from './AboutService';
 import Lav from './Lav';
 import Review from './Review';
 import Question from './Question';
+import Footer from '../shared/Footer';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Lav></Lav>
             <Review></Review>
             <Question></Question>
+            <Footer></Footer>
         </div>
     );
 };
